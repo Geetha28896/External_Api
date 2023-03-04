@@ -1,4 +1,4 @@
-const apiRequest = require("./request");
+const apiRequest = require("./productRequest");
 const apiUsersRequest = require("./userRequest");
 const apiCallFromNode = require("./NodeJsCall");
 const http = require("http");

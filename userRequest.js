@@ -5,7 +5,7 @@ URL = "https://reqres.in/api/users";
 
 const callExternalApiUsingRequest = (callback) => {
     try{
-  request(URL, { json: true }, async(err, res, result) => {
+  request(URL, { json: true }, (err, res, result) => {
     
     if (err) {
       return callback(err);
